@@ -1,9 +1,7 @@
-# Advanced Regression for House Price Prediction 🏡🔮
+# Smart Regression for House Price Prediction 🏡🔮
 
 Welcome to my project repository! This project represents an in-depth exploration into the realm of regression analysis for predicting house prices. Let me take you through the complete journey I embarked on during this project.
 
-![Regression Analysis](https://github.com/sakethyalamanchili/House-Price-Prediction/blob/main/houses_image.jpg)
-*Image Source: [Unsplash](https://unsplash.com/photos/aerial-photography-of-rural-r3WAWU5Fi5Q)*
 
 ## Overview
 
@@ -23,29 +21,12 @@ The journey began with carefully preparing and refining the data. I addressed mi
 
 
 
-![Top 20 features](https://github.com/sakethyalamanchili/House-Price-Prediction/blob/main/TOP20.png)
-
-
 ## Model Selection and Training
 
 After careful consideration, I opted to utilize three regression models for this project: Random Forest Regression, XGBoost, and CatBoost. These models were chosen for their robust performance and ability to handle complex datasets effectively.
 
 The data was split into training and validation sets, and the selected models were trained using the processed data. Baseline modeling was performed to assess initial performance, followed by hyperparameter tuning to optimize model performance further.
 
-### Baseline Model Evaluation
-
-![Baseline Model Evaluation](https://github.com/sakethyalamanchili/House-Price-Prediction/blob/main/baseline_modelling_performance.png)
-*This plot compares the performance of the baseline models.*
-
-### Hyperparameter Tuning Results
-
-![Hyperparameter Tuning Results](https://github.com/sakethyalamanchili/House-Price-Prediction/blob/main/hyperparameter_tuning_model_performance.png)
-*This plot illustrates the impact of hyperparameter tuning on model performance.*
-
-### Comparison between Baseline Model Evaluation and Hyperparameter Tuning
-
-![Comparison Plot](https://github.com/sakethyalamanchili/House-Price-Prediction/blob/main/baseline_vs_tuned_model_performance.png)
-*This plot compares the performance of baseline models with hyperparameter-tuned models across all three regression techniques.*
 
 ## Model Evaluation
 
@@ -55,16 +36,7 @@ The models were evaluated using MAE metrics, providing insights into their predi
 
 The final trained model was applied to the testing data, requiring additional preprocessing steps and adjustments to accommodate differences in the dataset. Once validated, the model was deployed using Streamlit, providing users with an intuitive interface for inputting house details and obtaining estimated sale prices.
 
-### Interface Preview
-
-Here are some screenshots of the interface:
-
-1. ![Screenshot 1](https://github.com/sakethyalamanchili/House-Price-Prediction/blob/main/1%20PNG.png)
-2. ![Screenshot 2](https://github.com/sakethyalamanchili/House-Price-Prediction/blob/main/2%20PNG.png)
-3. ![Screenshot 3](https://github.com/sakethyalamanchili/House-Price-Prediction/blob/main/3%20PNG.png)
 
 ## Conclusion
 
 In conclusion, this project represents a comprehensive journey from data preprocessing and feature engineering to model selection, training, evaluation, and deployment. It involved overcoming various challenges and culminated in the creation of a functional predictive model and user-friendly interface for house price prediction.
-
-Feel free to explore the repository and try out the deployed application [House Price Prediction Web App](https://saketh-house-price-estimator.streamlit.app/). Thank you for visiting!
