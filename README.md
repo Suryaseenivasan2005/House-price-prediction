@@ -40,3 +40,4 @@ The final trained model was applied to the testing data, requiring additional pr
 ## Conclusion
 
 In conclusion, this project represents a comprehensive journey from data preprocessing and feature engineering to model selection, training, evaluation, and deployment. It involved overcoming various challenges and culminated in the creation of a functional predictive model and user-friendly interface for house price prediction.
+By clicking this link : https://house-price-prediction-5ehdg4fbeqxyqqctcphrcf.streamlit.app/ you can test my project.
